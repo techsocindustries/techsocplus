@@ -1,2 +1,2 @@
 # techsocplus
-Techsoc+ codebase
+Techsoc+ server codebase
