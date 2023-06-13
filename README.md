@@ -1,2 +1,2 @@
 # techsocplus
-Share Techsoc+ content with your friends!
+Techsoc+ codebase
