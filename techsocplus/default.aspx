@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head runat="server">
-    <title>Welcome - Techsoc+ test</title>
+    <title>Welcome - Techsoc+</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
