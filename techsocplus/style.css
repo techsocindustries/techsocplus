@@ -11,9 +11,9 @@ a {
     color: cyan;
 }
 
-    a:hover {
-        color: red;
-    }
+a:hover {
+    color: red;
+}
 
 .container {
     display: flex;
