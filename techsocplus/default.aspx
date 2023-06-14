@@ -1,4 +1,5 @@
-<%@ Page Language="C#" AutoEventWireup="true" Inherits="MyNamespace.MainClass" Codebehind="default.aspx.cs" %>
+<%@ Page Language="C#" AutoEventWireup="true" Inherits="MyNamespace.MainClass" CodeBehind="default.aspx.cs" %>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">

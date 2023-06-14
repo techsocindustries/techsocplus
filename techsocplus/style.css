@@ -6,12 +6,15 @@ body {
     background-color: black;
     padding-top: 20pt;
 }
+
 a {
     color: cyan;
 }
-a:hover {
-    color: red;
-}
+
+    a:hover {
+        color: red;
+    }
+
 .container {
     display: flex;
     justify-content: center;

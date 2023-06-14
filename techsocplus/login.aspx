@@ -1,4 +1,5 @@
-<%@ Page Language="C#" AutoEventWireup="true" Inherits="MyNamespace.LoginClass" Codebehind="login.aspx.cs" %>
+<%@ Page Language="C#" AutoEventWireup="true" Inherits="MyNamespace.LoginClass" CodeBehind="login.aspx.cs" %>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">
