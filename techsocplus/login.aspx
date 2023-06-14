@@ -21,7 +21,7 @@
             </tr>
         </table>
         <br>
-        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
+        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="Login_Click" />
         <br><br>
         <asp:Label ID="lblMessage" runat="server" ForeColor="Red" Visible="False" />
     </form>

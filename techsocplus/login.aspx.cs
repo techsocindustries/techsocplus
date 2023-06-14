@@ -10,7 +10,7 @@ namespace MyNamespace
         const string salt = "8ebea7c19dc3f29a7df8";
         const string hash = "70f9dfe08e9da3b885ff4ad1443686a99923fadb";
 
-        protected void btnLogin_Click(object sender, EventArgs e)
+        protected void Login_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();

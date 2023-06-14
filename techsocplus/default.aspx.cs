@@ -18,13 +18,13 @@ namespace MyNamespace
             }
         }
 
-        protected void btnLogout_Click(object sender, EventArgs e)
+        protected void Logout_Click(object sender, EventArgs e)
         {
             FormsAuthentication.SignOut();
             Response.Redirect("login.aspx");
         }
 
-        protected void UploadFile(object sender, EventArgs e)
+        protected void Upload_Click(object sender, EventArgs e)
         {
             if (FileUpload1.HasFile)
             {

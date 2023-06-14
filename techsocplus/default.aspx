@@ -17,7 +17,7 @@
                 <b>Upload a file to Techsoc+</b> (max 2 GB)
                 <br><br>
                 <asp:FileUpload ID="FileUpload1" runat="server" />
-                <asp:Button ID="btnUpload" Text="Upload file" runat="server" OnClick="UploadFile" />
+                <asp:Button ID="btnUpload" runat="server" Text="Upload file" OnClick="Upload_Click" />
                 <asp:Label ID="lblMessage" runat="server" />
             </div>
         </div>
@@ -25,7 +25,7 @@
             <br>
             <asp:Literal ID="litUsername" runat="server" />
             <br><br>
-            <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
+            <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="Logout_Click" />
         </div>
     </form>
 </body>
