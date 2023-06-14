@@ -33,8 +33,9 @@ namespace MyNamespace
 				if (!File.Exists(filePath))
 				{
 					FileUpload1.SaveAs(filePath);
-					lblMessage.Text = "<br><br><font color='lightgreen'>" + Path.GetFileName(FileUpload1.FileName) + "</font> has been uploaded!<br>" +
-						"<font size='1'>" + FileUpload1.PostedFile.ContentLength.ToString("#,##0") + " bytes (" + FileUpload1.PostedFile.ContentType + ")</font>";
+					lblMessage.Text = "<br><br><font color='lightgreen'>" + Path.GetFileName(FileUpload1.FileName) +
+                        "</font> has been uploaded!<br>" + "<font size='1'>" + FileUpload1.PostedFile.ContentLength.ToString("#,##0") +
+                        " bytes (" + FileUpload1.PostedFile.ContentType + ")</font>";
 				}
 				else
 				{
